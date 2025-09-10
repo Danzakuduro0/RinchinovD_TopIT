@@ -1,0 +1,145 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: white;
+}
+
+.nav {
+    background: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 75%; */
+    border-radius: 0.75rem;
+}
+
+.section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0f172a 0%, #581c87 50%, #0f172a 100%);
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 40vh;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: #e4d4f4;
+}
+
+.hero button {
+    background: blue;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0.75rem;
+}
+
+.about {
+    background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+}
+
+.about-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #999;
+    border-radius: 0.75rem;
+}
+
+.photo1 {
+    height: 50vh;        
+}
+
+.experience {
+    background: linear-gradient(135deg, #f9fafb 0%, #e0e7ff 100%);
+}
+
+.job {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.job h3 {
+    color: blue;
+    margin: 0 0 10px 0;
+}
+
+.tech {
+    background: #eee;
+    padding: 5px 10px;
+    margin: 2px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.video {
+    background: linear-gradient(135deg, #581c87 0%, #1e3a8a 50%, #312e81 100%);
+}
+
+.video-box {
+    background: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+    border: 2px solid #ccc;
+}
+
+.video p {
+    text-align: center;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.quote {
+    background: #f9f9f9;
+    padding: 30px;
+    border-left: 5px solid blue;
+    font-style: italic;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+/* .attach {
+    text-wrap: 100px;
+} */
+
