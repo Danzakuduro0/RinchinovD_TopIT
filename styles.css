@@ -8,6 +8,8 @@ body {
     background: #f0f0f0;
     padding: 20px;
     text-align: center;
+    position: fixed;
+    width: 100%;
 }
 
 .nav button {
@@ -30,7 +32,7 @@ body {
 .hero {
     background: linear-gradient(135deg, #0f172a 0%, #581c87 50%, #0f172a 100%);
     text-align: center;
-    padding: 100px 20px;
+    padding: 170px 20px;
     min-height: 40vh;
 }
 
@@ -142,4 +144,5 @@ h2 {
 /* .attach {
     text-wrap: 100px;
 } */
+
 
